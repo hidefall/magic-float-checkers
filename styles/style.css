@@ -1,0 +1,76 @@
+body{
+    
+    background: url(../images/bg.jpg) center no-repeat;
+    margin: 0 auto;
+    max-width: 800px;
+    z-index: 1;
+}
+.header-title{
+    
+    text-align: center;
+    text-transform: uppercase;
+    color: #7FFFD4;
+    left: 33.333%;
+    font-size: 50px;
+}
+.board{
+    height: 800px;
+    margin-right: auto;
+    min-width: 100%;
+    border: 3px solid black;
+    margin-bottom: 50px;  
+}
+.black{
+    
+    width: 12.5%;
+    height: 12.5%;
+    background-color: #778899;
+    float: left;   
+}
+.white{
+    
+   width: 12.5%;
+   height: 12.5%;
+   background-color: #F0FFFF;
+   float: left;
+}
+.black-box{   
+    width: 75%;
+    height: 75%;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 12.5%;
+    box-shadow: 0 0 5px 5px;
+    margin-top: 11.8%;
+    cursor: pointer;
+    border: 2px solid #2F4F4F;
+}
+.white-box{   
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 11.8%;
+    box-shadow: 0 0 5px 5px;
+    margin-top: 12.5%;
+    cursor: pointer;
+    border: 2px solid #B8860B;
+    opacity: 1;   
+}
+.white-box:hover{
+    transform: scale(.9);
+    background: url(../images/tt.png) center no-repeat;
+    transition: .2s ease-in;
+    background-color: black;
+}
+.black-box:hover{
+
+    transform: scale(.9);
+    background: url(../images/bb.png) center no-repeat;
+    background-color: white;
+    transition: .2s ease-in;
+}
